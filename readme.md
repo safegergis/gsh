@@ -1,5 +1,3 @@
-Here's a README for the project in markdown format:
-
 # GSH - Gergis Shell
 
 GSH (Gergis Shell) is a custom Unix-like shell implementation written in C. It provides basic shell functionality including command execution, I/O redirection, piping, and built-in commands.
