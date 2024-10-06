@@ -38,14 +38,19 @@ int gsh_mkdir(char **args)
     }
     return 1;
 }
-
+int gsh_exit()
+{
+    exit(0);
+}
 int gsh_help()
 {
-    printf("gsh: simple shell\n");
+    printf("gsh: Gergis Shell by Safe Gergis\n");
     printf("Type program names and arguments, and hit enter.\n");
     printf("The following are built in:\n");
     printf("cd\n");
     printf("help\n");
+    printf("mkdir\n");
+    printf("!!\n");
     printf("exit\n");
     return 1;
 }
